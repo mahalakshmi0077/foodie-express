@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Food Menu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="overlay">
+
+  <h1>Food Menu</h1>
+
+  <div class="cards-container">
+
+    <!-- CARD 1 -->
+    <div class="card" onclick="toggleSelect(this, 60)">
+      <img src="Pongal.jpg">
+      <h3>Pongal</h3>
+      <p>₹60</p>
+    </div>
+
+    <!-- CARD 2 -->
+    <div class="card" onclick="toggleSelect(this, 120)">
+      <img src="Parotta.jpg">
+      <h3>Parotta</h3>
+      <p>₹120</p>
+    </div>
+
+    <!-- CARD 3 -->
+    <div class="card" onclick="toggleSelect(this, 150)">
+      <img src="Chettinad Biryani.jpg">
+      <h3>Chettinad Biryani</h3>
+      <p>₹150</p>
+    </div>
+
+    <!-- CARD 4 -->
+    <div class="card" onclick="toggleSelect(this, 80)">
+      <img src="dosa.jpg">
+      <h3>Dosa</h3>
+      <p>₹80</p>
+    </div>
+
+    <!-- CARD 5 -->
+    <div class="card" onclick="toggleSelect(this, 40)">
+      <img src="Filter Coffee.jpg">
+      <h3>Filter Coffee</h3>
+      <p>₹40</p>
+    </div>
+
+    <!-- CARD 6 -->
+    <div class="card" onclick="toggleSelect(this, 70)">
+      <img src="Idli.jpg">
+      <h3>Idli</h3>
+      <p>₹70</p>
+    </div>
+
+    <!-- CARD 7 -->
+    <div class="card" onclick="toggleSelect(this, 110)">
+      <img src="Kothu Parotta.jpg">
+      <h3>Kothu Parotta</h3>
+      <p>₹110</p>
+    </div>
+
+    <!-- CARD 8 -->
+    <div class="card" onclick="toggleSelect(this, 60)">
+      <img src="Muttai Kalakk.jpg">
+      <h3>Muttai Kalakk</h3>
+      <p>₹60</p>
+    </div>
+
+    <!-- CARD 9 -->
+    <div class="card" onclick="toggleSelect(this, 170)">
+      <img src="Prawn Fry.jpg">
+      <h3>Prawn Fry</h3>
+      <p>₹170</p>
+    </div>
+
+  </div>
+
+  <button onclick="confirmOrder()">Confirm</button>
+  <div id="cartBox"></div>
+  <button onclick="placeOrder()">Order</button>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
